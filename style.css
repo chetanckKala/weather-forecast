@@ -47,11 +47,12 @@ body
 #main
 {
     /* background-color: crimson; */
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    /* position: absolute; */
 }
 
 #card
@@ -60,7 +61,8 @@ body
     width: 350px;
     height: 420px;
     border-radius: 12px;
-    padding: 2%;
+    padding: 20px;
+    /* position: relative; */
 }
 
 #visual
@@ -175,7 +177,8 @@ body
 
 #cityimg
 {
-    width: 295px;
+    /* width: calc(350px - 4vw); */
+    width: 310px;
     height: 180px;
     margin-top: 10px;
     object-fit: cover;
