@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="search">
+        <input type="text" value="Paris">
+        <div id="icon"><i class="ri-search-line"></i></div>
+    </div>
+
+    <div id="main">
+
+        <div id="card">
+        
+            <div id="header">
+    
+                <div id="temp">
+                    <h1></h1>
+                    <h3></h3>
+                </div>
+    
+                <div id="visual">
+                    <img src="" alt="">
+                </div>
+    
+            </div>
+    
+            <div id="footer">
+    
+                <div id="city">
+                    <h2></h2>
+                </div>
+    
+                <div id="details">
+    
+                    <div id="wind">
+                        <i class="ri-windy-line"></i>
+                        <div class="right">
+                            <h3 id="top"></h3>
+                            <h3 id="bottom">Wind Speed</h3>
+                        </div>
+                    </div>
+    
+                    <div id="humidity">
+                        <i class="ri-water-percent-line"></i>
+                        <div class="right">
+                            <h3 id="top"></h3>
+                            <h3 id="bottom">Humidity</h3>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+            <img src="https://img.freepik.com/free-vector/cartoon-turtle-loading-icon-interface_172107-1203.jpg?t=st=1733901648~exp=1733905248~hmac=2e53c32f287925196a2df5c383eaa2392c9b1583f4843c7f7b3b77de9cae25cb&w=740" alt="" id="cityimg">
+    
+        </div>
+
+        <div id="overlay">
+            <img src="404.png" alt="">
+            <div id="message"><h4>Data not available!</h4></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
